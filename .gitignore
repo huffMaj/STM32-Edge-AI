@@ -5,3 +5,4 @@ __pycache__/
 
 # Fichiers générés
 *.npz
+dataset/

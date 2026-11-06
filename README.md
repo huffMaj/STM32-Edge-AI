@@ -32,8 +32,9 @@ Conclusion du rapport : pour ces tâches, le microcontrôleur est le plus adapt�
 | Dossier | Partie |
 |---|---|
 | [`STM32MP257F-DK/face-detection`](STM32MP257F-DK/face-detection) | Détection de visages BlazeFace sous Linux |
+| [`STM32MP257F-DK/gesture-recognition`](STM32MP257F-DK/gesture-recognition) | Reconnaissance de gestes MobileNetV2 sous Linux, avec la collecte des données et l'entraînement sur PC |
 
-Les autres parties du projet (reconnaissance de gestes, applications STM32N6570-DK) seront ajoutées.
+Les applications STM32N6570-DK seront ajoutées.
 
 ## Équipe
 
@@ -44,10 +45,11 @@ Les autres parties du projet (reconnaissance de gestes, applications STM32N6570-
 | Ismail Abdelaali | Modèles de machine learning |
 | Rayane Djenadou | Intégration sur les cartes et mesures de performance |
 
-Le code de la partie détection de visages provient du dépôt de l'équipe : [rayane2222/Face-Recognition](https://github.com/rayane2222/Face-Recognition).
+Le code des parties STM32MP257F-DK provient des dépôts de l'équipe : [rayane2222/Face-Recognition](https://github.com/rayane2222/Face-Recognition) et [rayane2222/Gesture-Recognition](https://github.com/rayane2222/Gesture-Recognition).
 
 ## Crédits
 
 - BlazeFace : Google Research, MediaPipe (licence Apache 2.0).
 - Portage PyTorch de BlazeFace : Matthijs Hollemans (voir [`LICENSE`](STM32MP257F-DK/face-detection/BlazeFace-PyTorch/LICENSE)).
-- Les photos de test et de calibration utilisées pendant le projet ne sont pas publiées ici : utilisez vos propres images.
+- MobileNetV2 : torchvision, poids pré-entraînés sur ImageNet.
+- Les photos de test et de calibration, ainsi que le jeu de données de gestes, ne sont pas publiés ici : utilisez vos propres images.
