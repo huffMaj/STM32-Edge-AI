@@ -54,11 +54,9 @@ Les applications STM32N6570-DK seront ajoutées.
 | Membre | Rôle |
 |---|---|
 | Koundeme Djessou | Product Owner, partie embarquée |
-| Hafsa El Majdoub | Scrum Master |
+| Hafsa El Majdoub | Scrum Master, intégration sur les cartes et mesures de performance |
 | Ismail Abdelaali | Modèles de machine learning |
 | Rayane Djenadou | Intégration sur les cartes et mesures de performance |
-
-Le code des parties STM32MP257F-DK provient des dépôts de l'équipe : [rayane2222/Face-Recognition](https://github.com/rayane2222/Face-Recognition) et [rayane2222/Gesture-Recognition](https://github.com/rayane2222/Gesture-Recognition).
 
 ## Crédits
 
