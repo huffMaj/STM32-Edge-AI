@@ -67,5 +67,3 @@ Le notebook `Inference.ipynb` attend des photos de test (`1face.png`, `3faces.pn
 - BlazeFace (Google Research) : https://sites.google.com/view/perception-cv4arvr/blazeface
 - Article : https://arxiv.org/abs/1907.05047
 - MediaPipe Face Detection : https://github.com/google/mediapipe
-
-Code repris du dépôt de l'équipe : https://github.com/rayane2222/Face-Recognition
