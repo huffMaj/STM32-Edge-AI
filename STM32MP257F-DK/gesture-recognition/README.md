@@ -50,5 +50,3 @@ python make_calib.py        # -> calibration.npz
 ```
 
 Le jeu de données collecté pendant le projet (environ 6 000 images, 1 000 par classe) n'est pas publié : collectez le vôtre avec `collect_dataset.py`.
-
-Code repris du dépôt de l'équipe : https://github.com/rayane2222/Gesture-Recognition
