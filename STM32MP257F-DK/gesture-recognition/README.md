@@ -2,6 +2,8 @@
 
 Partie « reconnaissance de gestes » du projet, côté microprocesseur (OpenSTLinux). Le modèle compte les doigts levés à partir de l'image de la caméra : six classes, de 0 à 5.
 
+<img src="../../docs/images/gestes_stm32mp2.jpg" alt="Application finger_detection.py sur la STM32MP257F-DK" width="480">
+
 ## Application sur la carte : `finger_detection.py`
 
 - Capture caméra avec GStreamer (`libcamerasrc`, 640 × 480).
