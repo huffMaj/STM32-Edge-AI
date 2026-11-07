@@ -27,6 +27,19 @@ L'objectif était de comparer l'exécution de modèles de vision sur deux cartes
 
 Conclusion du rapport : pour ces tâches, le microcontrôleur est le plus adapté. Il atteint la précision demandée par le cahier des charges sans la complexité d'un système d'exploitation complet.
 
+## Démonstrations
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/images/gestes_stm32n6.jpg" alt="Reconnaissance de gestes sur la STM32N6570-DK" width="420"></td>
+    <td align="center"><img src="docs/images/gestes_stm32mp2.jpg" alt="Reconnaissance de gestes sur la STM32MP257F-DK" width="380"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>STM32N6570-DK</b> : paume et 21 points clés sur le NPU, comptage géométrique des doigts, 30 images/s</td>
+    <td align="center"><b>STM32MP257F-DK</b> : MobileNetV2 quantifié en INT8 sur le NPU, 22 images/s</td>
+  </tr>
+</table>
+
 ## Contenu du dépôt
 
 | Dossier | Partie |
